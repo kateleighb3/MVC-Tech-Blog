@@ -13,10 +13,10 @@ document.querySelector("#signup").addEventListener("submit",event=>{
         }
     }).then(res=>{
         if(res.ok){
-            console.log("user is signed up")
+            console.log("user signed up")
             location.href="/dashboard"
         } else {
-            alert("please try again")
+            alert("try again")
         }
     })
 })

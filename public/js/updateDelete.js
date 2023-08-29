@@ -18,7 +18,7 @@ document.querySelector("#update").addEventListener("click",event=>{
             console.log("blog updated")
             location.href="/dashboard"
         } else {
-            alert("please try again")
+            alert("try again")
         }
     })
 })
@@ -33,7 +33,7 @@ document.querySelector("#delete").addEventListener("click",event=>{
             console.log("blog deleted")
             location.href="/dashboard"
         } else {
-            alert("please try again")
+            alert("try again")
         }
     })
 })
